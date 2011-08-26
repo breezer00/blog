@@ -1,3 +1,40 @@
 .blog-description {
 	font-style:italic;
+	color: #999;
+}
+
+.clear {
+	clear: both;
+}
+
+.tab  {
+	width: 100%;
+	height: 50px;
+	background: #444;
+} 
+
+.tab-list {
+	float: right;
+	padding: 0 10px;	
+	line-height: 50px;
+}
+
+.tab-list:hover {
+	background: red;
+}
+
+.category {
+	width: 100%;
+	height: 40px;
+	background: #558;
+}
+
+.category-list {
+	float: left;
+	padding: 0 10px;
+	line-height: 40px;
+}
+
+.category-list:hover {
+	background: blue;
 }
