@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{=T.accepted_language or 'en'}}" class="no-js"><!-- no-js need it for modernzr -->
+
+  <head>
+      {{include 'head.html'}}
+  </head>
+  
+  <body>
+      <div id='header'>   
+          {{include 'header.html'}}
+      </div>
+      
+      
+  </body>
+  
+</html>
