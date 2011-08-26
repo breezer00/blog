@@ -1,33 +1,48 @@
-{{left_sidebar_enabled=right_sidebar_enabled=False}}
 {{extend 'layout.html'}}
 
-{{if 'message' in globals():}}
+<div class='banner'>
 
-<h1>{{=message}}</h1>
+	<h1>My blog</h1>
+	<p class='blog-description'>Blog description blah blah blah</p>
 
-<hr />
-<h2>{{=T("Readme")}}</h2>
-<ul>
-  <li>{{=T('You are successfully running web2py')}}</li>
-  <li>{{=T('This is a copy of the scaffolding application')}}</li>
-  <li>{{=T('You can modify this application and adapt it to your needs')}}</li>
-  <li>{{=A(B(T("Administrative interface")), _href=URL('admin','default','index'))}}</li>
-  <li>{{=A(T("Online examples"), _href=URL('examples','default','index'))}}</li>
-  <li><a href="http://web2py.com">web2py.com</a></li>
-  <li><a href="http://web2py.com/book">{{=T('Documentation')}}</a></li>
-</ul>
+</div>
 
-<ol>
-  <li>{{=T('You visited the url')}} {{=A(request.env.path_info,_href=request.env.path_info)}}</li>
-  <li>{{=T('Which called the function')}} {{=A(request.function+'()',_href='#')}} {{=T('located in the file')}}
-    {{=A('web2py/applications/%(application)s/controllers/%(controller)s.py'%request,_href=URL('admin','default','peek',args=(request.application,'controllers',request.controller+'.py')))}}</li>
-  <li>{{=T('The output of the file is a dictionary that was rendered by the view')}}
-    {{=A('web2py/applications/%(application)s/views/%(controller)s/index.html'%request,_href=URL('admin','default','peek',args=(request.application,'views',request.controller,'index.html')))}}</li>
-</ol>
+<div class='menu'>
 
-{{else:}}
-{{=BEAUTIFY(response._vars)}}
-{{pass}}
+	<ul>
 
-{{block left_sidebar}}New Left Sidebar Content{{end}}
-{{block right_sidebar}}New Right Sidebar Content{{end}}
+	<li>Welcome</li>
+	<li>Registration Center</li>
+
+	</ul>
+
+</div>
+
+<div class='blog-page'>
+
+	<div class='left-col'>
+		<div class='left-top'>Recent Articles</div>
+
+		<div class='post'>
+			<div class='date'>26 Aug</div>
+			<div class='title'>Lorem ipsum</div>
+			<div class='post-content'>
+			<p>Maecenas vel consectetur risus. Vivamus venenatis dapibus est, mattis placerat est mollis id. Maecenas vel nulla purus. Curabitur et libero ac quam vulputate varius dictum ac orci. Fusce et libero dapibus nisl posuere eleifend non non mauris. Donec elit lectus, pharetra eu venenatis vitae, viverra non augue. Proin venenatis odio ac nisl sodales bibendum.</p>
+			</div>
+
+		</div>
+	</div>
+
+	<div class='right-col'>
+
+	<div class='right-top'>Subscribe</div>	
+
+		<div class='title'>Recent Articles</div>
+
+		<ul>
+			<li>Lorem ipsum</li>
+		</ul>
+
+	</div>
+
+</div>
