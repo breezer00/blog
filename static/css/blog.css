@@ -8,9 +8,10 @@
 }
 
 .tab  {
-	width: 100%;
+	margin: 0 auto;
+	width: 760px;
 	height: 50px;
-	background: #444;
+	
 } 
 
 .tab-list {
@@ -37,4 +38,80 @@
 
 .category-list:hover {
 	background: blue;
+}
+
+.blog-section {
+	position: relative;
+	height: 100%;
+	margin: 10px 0;
+	background: white;
+	color: black;
+}
+
+.post {
+	padding: 10px;
+}
+
+.date {
+	position: absolute;
+	left: -66px;
+	height: 50px;
+	width: 60px;
+	padding: 3px;
+	line-height: 50px;
+	background: #333;
+	opacity: 0.8;
+}
+
+
+.left-col {
+	float: left;
+	width: 600px;
+	background: #eee;
+}
+
+.right-col {
+	float: right;
+	width: 200px;
+	background: white;
+}
+
+.left-top {
+	margin:0;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	color: #eee;
+	background: #666;
+}
+
+.right-top{
+	margin:0;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	color: #eee;
+	background: #444;
+}
+
+.footer-main {
+	margin: 0 auto;
+	width: 800px;
+}
+
+.footer-all {
+	float: left;
+	width: 240px;
+}
+
+.footer-left {
+
+}
+
+.footer-mid {
+	margin: 0 40px;
+}
+
+.footer-right {
+
 }
