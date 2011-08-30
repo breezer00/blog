@@ -52,6 +52,7 @@
 
 .category-list:hover {
 	background: #447;
+	cursor: pointer;
 }
 
 .blog-section {
