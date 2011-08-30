@@ -1,0 +1,46 @@
+gbody {
+	margin: 0 auto;
+	font-family: Helvetica, sans-serif;
+	background: #fff;
+	color: #000;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited{
+	color: white;
+}
+
+.font-lobster-two {	
+	font-family: 'Lobster Two', cursive;
+}
+
+#content {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#footer {
+	background: #efefef;
+	width: 100%;
+	color: #111;
+}
+
+#header {
+	background: url("../images/tab-background-light.png") repeat-x scroll left top #333;
+	width: 100%;
+	webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px; 
+}
+
+.copyright {
+	width: 800px;
+	margin: 10px auto;
+}

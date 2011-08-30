@@ -1,0 +1,43 @@
+body {
+	margin: 0 auto;
+	font-family: Helvetica, sans-serif;
+	background: url("../images/body-background.jpg") repeat scroll left top #292929;
+	color: #000;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited{
+	color: white;
+}
+
+.font-lobster-two {	
+	font-family: 'Lobster Two', cursive;
+}
+
+#content {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#footer {
+	background: #141414;
+	width: 100%;
+	color: #fff;
+}
+
+#header {
+	background: url("../images/tab-background.png") repeat-x scroll left top #333;
+	width: 100%;
+}
+
+.copyright {
+	width: 800px;
+	margin: 10px auto;
+}
