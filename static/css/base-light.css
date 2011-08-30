@@ -1,8 +1,8 @@
-gbody {
+body {
 	margin: 0 auto;
 	font-family: Helvetica, sans-serif;
 	background: #fff;
-	color: #000;
+	color: #444;
 }
 
 ul {
@@ -15,7 +15,7 @@ a {
 }
 
 a:visited{
-	color: white;
+	color: #444;
 }
 
 .font-lobster-two {	
@@ -30,12 +30,12 @@ a:visited{
 #footer {
 	background: #efefef;
 	width: 100%;
-	color: #111;
 	line-height:140%;
 }
 
 #header {
-	background: url("../images/tab-background-light.png") repeat-x scroll left top #333;
+	/*background: url("../images/tab-background-light.png") repeat-x scroll left top #333;*/
+	border-bottom: 1px dashed #eef;
 	width: 100%;
 	webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
