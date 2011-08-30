@@ -33,6 +33,7 @@
 	width: 100%;
 	height: 40px;
 	background: url("../images/category-background-light.png") repeat-x scroll left top #558;
+	opacity: 0.8;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px; 
@@ -100,6 +101,7 @@
 	padding-left: 10px;
 	color: #eee;
 	background: url("../images/left-top-background-light.png") repeat-x scroll left top #666;
+	opacity: 0.8;
 	-webkit-border-radius-topleft: 5px;
 	-moz-border-radius-topleft: 5px;
 	border-radius-topleft: 5px; 
